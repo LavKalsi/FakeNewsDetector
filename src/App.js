@@ -42,6 +42,7 @@ function App() {
       </div>
       </div>
       <h1>Fake News Detector</h1>
+
       <input
         type="text"
         value={inputData}
@@ -83,6 +84,7 @@ function App() {
         />
         <label htmlFor="rf">Random Forest</label>
       </div>
+      <div className='centerButton'>
       <button onClick={sendData}>
         <div className="svg-wrapper-1">
           <div className="svg-wrapper">
@@ -98,10 +100,12 @@ function App() {
                 d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
               ></path>
             </svg>
+          
           </div>
         </div>
         <span>Check News</span>
       </button>
+      </div>
       <div className="output">
       {error && <div className="error">{error}</div>}
       {outputData}

@@ -110,6 +110,7 @@ input[type="text"] {
 
 
 button {
+  
   font-family: inherit;
   font-size: 20px;
   background: #004f7d;
@@ -123,7 +124,7 @@ button {
   overflow: hidden;
   transition: all 0.2s;
   cursor: pointer;
-  margin-inline: 335px;
+  
   margin-top: 10px;
 }
 
@@ -145,11 +146,11 @@ button:hover .svg-wrapper {
 }
 
 button:hover svg {
-  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  transform: translateX(3em) rotate(45deg) scale(1.1);
 }
 
 button:hover span {
-  transform: translateX(5em);
+  transform: translateX(8em);
 }
 
 button:active {
@@ -293,4 +294,8 @@ body, html {
   display: flex;
   justify-content: center;
   gap: 1em;
+}
+
+.centerButton{
+  justify-content: center;
 }
