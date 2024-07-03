@@ -66,7 +66,7 @@ Fake News Detector is a web application built with React for the frontend and a 
 
 3. Run the backend server:
     ```sh
-    python res/app.py
+    python res/Server.py
     ```
 
 ## Usage
@@ -91,8 +91,8 @@ The backend is a Python Flask application that serves a machine learning model t
 
 ### Files in `res` Folder
 
-- `app.py`: The Flask application that handles HTTP requests from the frontend.
-- `model.pkl`: The trained machine learning model.
+- `Server.py`: The Flask application that handles HTTP requests from the frontend.
+- `DecisionTree.model`,`LogisticRegression.model`,`RandomForest.model`: The trained machine learning models.
 - `requirements.txt`: The dependencies required for the Python backend.
 
 ## Contributing
