@@ -8,6 +8,7 @@ A React web application that uses a Python machine learning model to detect fake
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [How It Works](#how-it-works)
 - [Backend Details](#backend-details)
 - [Contributing](#contributing)
 - [License](#license)
@@ -74,6 +75,15 @@ Fake News Detector is a web application built with React for the frontend and a 
 2. Open your browser and navigate to `http://localhost:3000`.
 3. Enter the news article or headline you want to verify.
 4. Click the "Check" button to receive the classification result.
+
+## How It Works
+
+The Fake News Detector web app allows users to easily check the authenticity of news articles. Here's how you can use it:
+
+1. **Input News:** Users can input a news article or headline into the provided text box on the web app.
+2. **Submit for Analysis:** After entering the news, users click the "Check" button to submit the text for analysis.
+3. **Backend Processing:** The frontend sends the news text to the backend Python server, where the machine learning model processes it.
+4. **Receive Results:** The backend returns the analysis result (real or fake) to the frontend, which is then displayed to the user.
 
 ## Backend Details
 
